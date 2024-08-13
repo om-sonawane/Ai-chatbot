@@ -1,14 +1,13 @@
 import datetime
 import os
 import webbrowser
-
 import openai
+import tinkter
 import speech_recognition as sr
-
 from config import apikey
 
 chatStr = ""
-# https://youtu.be/Z3ZAJoi4x6Q
+
 def chat(query):
     global chatStr
     print(chatStr)
