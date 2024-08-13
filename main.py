@@ -2,7 +2,7 @@ import datetime
 import os
 import webbrowser
 import openai
-import tinkter
+import tkinter
 import speech_recognition as sr
 from config import apikey
 
